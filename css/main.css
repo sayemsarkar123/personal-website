@@ -1,0 +1,221 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row {
+  /* display: flow-root; */
+  margin: 0 -15px;
+}
+
+.row::before,
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  float: left;
+  width: calc((100% * 1) / 12);
+  padding: 0 15px;
+}
+
+.col-2 {
+  float: left;
+  width: calc((100% * 2) / 12);
+  padding: 0 15px;
+}
+
+.col-3 {
+  float: left;
+  width: calc((100% * 3) / 12);
+  padding: 0 15px;
+}
+
+.col-4 {
+  float: left;
+  width: calc((100% * 4) / 12);
+  padding: 0 15px;
+}
+
+.col-5 {
+  float: left;
+  width: calc((100% * 5) / 12);
+  padding: 0 15px;
+}
+
+.col-6 {
+  float: left;
+  width: calc((100% * 6) / 12);
+  padding: 0 15px;
+}
+
+.col-7 {
+  float: left;
+  width: calc((100% * 7) / 12);
+  padding: 0 15px;
+}
+
+.col-8 {
+  float: left;
+  width: calc((100% * 8) / 12);
+  padding: 0 15px;
+}
+
+.col-9 {
+  float: left;
+  width: calc((100% * 9) / 12);
+  padding: 0 15px;
+}
+
+.col-10 {
+  float: left;
+  width: calc((100% * 10) / 12);
+  padding: 0 15px;
+}
+
+.col-11 {
+  float: left;
+  width: calc((100% * 11) / 12);
+  padding: 0 15px;
+}
+
+.col-12 {
+  float: left;
+  width: calc((100% * 12) / 12);
+  padding: 0 15px;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.header,
+.biography,
+.review,
+.work {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-image: url("../images/header-bg.png");
+}
+
+.biography {
+  background-image: url("../images/biography-bg.png");
+}
+
+.review {
+  background-image: url("../images/footer-bg.png");
+}
+
+.work {
+  background-image: url("../images/latest-work-bg.png");
+}
+
+.about-me h3,
+.biography h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.about-me h3>span {
+  display: block;
+  color: #EC4C7A;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.about-me p,
+.biography>p {
+  font-size: 18px;
+  color: #707070;
+  margin: 38px 0 18px;
+}
+
+.about-me>a,
+.biography>a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 1rem;
+  background: linear-gradient(to right, #EC4F8F, #EC4B75);
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.about-me,
+.biography {
+  margin-top: 100px;
+}
+
+section#work {
+  padding: 100px 0;
+}
+
+section#review {
+  text-align: center;
+  padding: 100px 0;
+}
+
+section#review h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+section#review h3 {
+  font-size: 26px;
+}
+
+section#review h4 {
+  color: #7A7A7A;
+  margin: 20px 0 30px;
+}
+
+section#review p {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.contact-us {
+  padding: 3rem;
+  width: 80%;
+  margin: 60px auto 0;
+  background: linear-gradient(to right, #EC4E89, #ED4B72);
+  border-radius: 6px;
+}
+
+.contact-us a,
+.contact-us p {
+  color: #fff !important;
+}
+
+.contact-us a {
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 30px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #7E7E7E;
+}
